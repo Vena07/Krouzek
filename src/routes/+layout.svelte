@@ -1,6 +1,7 @@
 <script>
    import {fly} from 'svelte/transition';
    import {page} from '$app/stores';
+   import Header from "../lib/componets/Header.svelte"
    //const { chirdren } = $props();
     const startTransition = () => {
         document.body.classList.add('page-transitioning')
@@ -11,13 +12,7 @@
 
 </script>
 
-<header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
-    <h1>Zde je šablona</h1>
-</header>
+<Header></Header>
 
 {#key $page.url}
 <main
