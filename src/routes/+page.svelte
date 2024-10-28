@@ -17,18 +17,19 @@
 <section class="dlasistrana">
     <h2 class="nadpis2">Moderní škola pro budoucnost vašich dětí</h2>
     <div class="obecnyinfo">
-        <img  class="obrazek2" src="https://c8.alamy.com/comp/F36E9D/composite-image-of-happy-college-students-gesturing-thumbs-up-F36E9D.jpg" alt="">
+        <img  class="obrazek2" src="https://1gr.cz/fotky/lidovky/18/104/c460/APE77041a_shutterstock_388657198.jpg" alt="">
         <p class="popis">Naše škola je místem, kde se děti rozvíjejí nejen akademicky, ale také osobnostně. Klíčem k úspěchu je pro nás individuální přístup a inovativní vzdělávací metody, které podporují kreativitu, kritické myšlení a samostatnost.</p>
     </div>
 </section>
 
-<style lang="scss">
+<style>
     .nadpis2{
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 300;
         text-align: center;
         color: white;
+        font-size: 50px;
     }
     
     .obecnyinfo{
@@ -37,22 +38,32 @@
         justify-content: center;
         align-items: center;
         color: white;
+        
     }
     
     .obrazek2{
-        width: 500px;
+        width: 600px;
         height: auto;
+        margin-left: 25px;
+        margin:25px;
+        border-radius: 25px;
+        transition: ease 0.5s;
+        box-shadow: 20px 20px rgb(93, 176, 206);
     }
+
+    
     
     .popis{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
+        width: 600px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+        text-align: center;
     }
 
     .dlasistrana{
-        width: 100vw;
-        height: 100vh;    
-        background-color: black;
+        height: 600px;    
+        background-color: rgb(136, 143, 182);
+        padding: 20px;
     
     }
 

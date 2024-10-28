@@ -13,7 +13,7 @@
 <style>
     header{
         height: 60px;
-        background-color: rgba(63, 63, 65, 0.631);
+        background-color: rgba(145, 160, 159, 0.631);
         backdrop-filter: blur(10px);
         display: flex;
         justify-content: flex-end;
@@ -28,7 +28,6 @@
         margin-right: 15px;
         color: white;
         font-size: 25px;
-        border: solid 3px  rgb(100, 99, 99, 0.631);
         padding: 5px;
         background-color: rgb(100, 99, 99, 0.631);
         backdrop-filter: blur(10px);
@@ -41,8 +40,7 @@
     }
 
     .Home:hover, .About:hover, .Svelte:hover{
-        background-color: rgb(255, 255, 255,  0.631);
-        color: black;
+        background-color: rgba(135, 159, 255, 0.631);
     }
 
 </style>
